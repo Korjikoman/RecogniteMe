@@ -8,7 +8,7 @@ class AudioSlicer:
 
         self.path = path
         self.chunk_duration = chunk_duration
-        self.save_dir = save_dir
+        self.save_dir = "recognition/" + save_dir
 
         os.makedirs(save_dir, exist_ok=True)
 
